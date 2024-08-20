@@ -11,7 +11,9 @@
 -ngrok http 5000
 utilizar y ngrok  https://34db-186-107-13-53.ngrok-free.app -> http://localhost:5000              
 -luego en model añadir esta url ->https://34db-186-107-13-53.ngrok-free.app
--subir backend label-studio-ml start my_ml_backend -p 5000 --host 0.0.0.0
+-subir backend 
+label-studio-ml start my_ml_backend -p 5000 --host 0.0.0.0
+label-studio-ml start backend_yolov8 -p 5000 --host 0.0.0.0
 -Para cambiar a yolov5 , entrar en wsgi.py 
 -------------------------------------------------------
 

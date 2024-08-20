@@ -1,0 +1,7 @@
+<View>
+  <View style="display:flex;align-items:start;gap:8px;flex-direction:column"><Image name="image" value="$image" zoom="true" rotateControl="true" zoomControl="true"/><View><Filter toName="label" minlength="0" name="filter"/><RectangleLabels name="label" toName="image" showInline="true">
+    
+    
+  <Label value="Persona" background="#faf200"/><Label value="Adulto en borde" background="#1286f3"/><Label value="Inmersión adulto" background="#2d6deb"/><Label value="Sumersión adulto" background="#003aad"/><Label value="Niño en borde" background="#37ff00"/><Label value="Inmersión niño" background="#389E0D"/><Label value="Sumersión niño" background="#5cdb6b"/><Label value="Flotador" background="#096DD9"/><Label value="Objeto en piscina" background="#ADC6FF"/><Label value="Persona ahogándose" background="#ff0000"/><Label value="Mascota en borde" background="#F759AB"/><Label value="Mascota en agua" background="#FFA39E"/><Label value="Piscina" background="#e100ff"/></RectangleLabels></View></View>
+  
+</View>
