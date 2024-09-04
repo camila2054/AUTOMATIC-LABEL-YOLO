@@ -5,6 +5,7 @@
 -Crear un entorno para instalar dependecias necesarias
 -entrar en Label-studio-ml-backend : 
      -label-studio-ml start my_ml_backend
+     
 -tomar el http:/ e ir a label-studio y en model añadir url 
 -guardar y estara conectado para realizar inferencias 
 --Para exponerlo a una ip publica debemos utilizar ngrok con su token respectivo, abrir el puerto que deseemos 

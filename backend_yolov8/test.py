@@ -27,6 +27,7 @@ def get_all_tasks_without_annotations():
     tasks= []
     url = f"{LABEL_STUDIO_URL}/api/projects/{PROJECT_ID}/tasks"
     page=1
+    
     while True:
 
         params = {

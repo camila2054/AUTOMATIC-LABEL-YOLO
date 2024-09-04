@@ -39,7 +39,7 @@ class NewModel(LabelStudioMLBase):
             raise
 
         # Cargar modelo personalizado 
-        self.model_path = r'C:\Users\candr\Desktop\ENTRENAMIENTO\runs\detect\swimmingmodel_23\weights\best.pt'
+        self.model_path = r'C:\Users\candr\Desktop\ENTRENAMIENTO\swimming28-08.pt'
         try:
             self.model = ultralytics.YOLO(self.model_path)
             print(f"Modelo cargado correctamente desde {self.model_path}")
